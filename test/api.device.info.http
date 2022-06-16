@@ -1,0 +1,9 @@
+### get device info
+POST localhost:3001/api/device/info
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "type": "relay",
+  "client_id": "home/relay/0"
+}

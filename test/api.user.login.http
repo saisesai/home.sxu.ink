@@ -1,0 +1,17 @@
+### login
+POST http://localhost:3001/api/user/login
+Content-Type: application/x-www-form-urlencoded
+
+username=home&&password=123456
+
+### not exist user
+POST http://localhost:3001/api/user/login
+Content-Type: application/x-www-form-urlencoded
+
+username=home1&&password=123456
+
+### wrong password
+POST http://localhost:3001/api/user/login
+Content-Type: application/x-www-form-urlencoded
+
+username=home&&password=1234561

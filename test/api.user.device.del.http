@@ -1,0 +1,9 @@
+### del relay
+POST localhost:3001/api/user/device/del
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "type": "relay",
+  "client_id": "home/relay/1"
+}

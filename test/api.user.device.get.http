@@ -1,0 +1,3 @@
+### get devices
+GET localhost:3001/api/user/device/get
+Authorization: Bearer {{token}}

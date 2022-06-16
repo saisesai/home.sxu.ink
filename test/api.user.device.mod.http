@@ -1,0 +1,9 @@
+### modify device
+POST localhost:3001/api/user/device/mod
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "client_id": "home/relay/0",
+  "remark": "test1"
+}

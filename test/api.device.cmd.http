@@ -1,0 +1,10 @@
+### send cmd
+POST localhost:3001/api/device/cmd
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "type": "relay",
+  "client_id": "home/relay/0",
+  "cmd": "OFF"
+}
